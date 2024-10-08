@@ -67,7 +67,9 @@ if (number8 = 8) {
 }
 console.log("uno dei due num é ", eight)
 
-
+if (number8=== 8 || number2 === 8 || number8 + number2 === 8 || number8-number2  === 8 || number2-number8  === 8 ) {
+  console.log("verificato")
+}
 
 
 /* ESERCIZIO 5
