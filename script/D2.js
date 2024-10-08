@@ -84,10 +84,12 @@ if (number8=== 8 || number2 === 8 || number8 + number2 === 8 || number8-number2 
 
 const totalShoppingCart = (5 + 27 + 12+ 18)
 const sconto=(totalShoppingCart + 20 /100)
+let totalShoppingCart1= totalShoppingCart+10
+
 if (sconto >= 50 ){
-  console.log("Hai diritto alla consegna gratuita" )
+  console.log("Hai diritto alla consegna gratuita poiché hai speso", totalShoppingCart)
 }else{
- console.log("verra aggiunto il costo della spedizione pari a 10E")
+ console.log("verra aggiunto il costo della spedizione pari a ", totalShoppingCart1,)
 }
 
 /* ESERCIZIO 6
