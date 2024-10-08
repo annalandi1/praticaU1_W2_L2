@@ -84,7 +84,7 @@ if (number8=== 8 || number2 === 8 || number8 + number2 === 8 || number8-number2 
 
 const totalShoppingCart = (5 + 27 + 12+ 18)
 const sconto=(totalShoppingCart + 20 /100)
-if (sconto > 50 ){
+if (sconto >= 50 ){
   console.log("Hai diritto alla consegna gratuita" )
 }else{
  console.log("verra aggiunto il costo della spedizione pari a 10E")
