@@ -180,14 +180,26 @@ console.log('ciao dopo delete', ciao)
 /* SCRIVI QUI LA TUA RISPOSTA */
 delete ciao.skills[2]
 console.log("ciao dopo delete 2", ciao)
+
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+function createArray(N) {
+  let arrayNumeri = [];
+  for (let i = 1; i <= N; i++) {
+     arrayNumeri.push(i);
+  }
+  return arrayNumeri;
+}
+
+let N = 100;
+let arr = createArray(N);
+console.log(arr);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
-
+//vedi codice sopra 
 /* SCRIVI QUI LA TUA RISPOSTA */
