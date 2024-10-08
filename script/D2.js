@@ -52,7 +52,7 @@ console.log("divisibile per 5")
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
-
+//
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let number8= 8
@@ -67,6 +67,7 @@ if (number8 = 8) {
 }
 console.log("uno dei due num é ", eight)
 
+//correzione (la parola "oppure" mi ha confusa e ho pensato bastasse fare una cosa oppure l'altra)
 if (number8=== 8 || number2 === 8 || number8 + number2 === 8 || number8-number2  === 8 || number2-number8  === 8 ) {
   console.log("verificato")
 }
