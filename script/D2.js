@@ -106,8 +106,31 @@ if (sconto > 50 ){
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let a = 2
-let b = 5
-let c = 8
+let b = 8
+let c = 3
+
+
+if (a>b) {
+ 
+  crescente = a
+  a=b
+  b=crescente
+  }
+  if (a>c) {
+ 
+  crescente = a
+  a=c
+  c=crescente
+  }
+ 
+  if (b>c) {
+
+  crescente = b
+  b=c;
+  c=crescente
+  }
+
+console.log(crescente)
 
 
 
