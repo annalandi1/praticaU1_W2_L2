@@ -222,7 +222,7 @@ function createArray(N) {
 }
 
 let N = 100;
-let arr = createArray(N);
+let arr = createArray(N); 
 console.log(arr);
 
 /* ESERCIZIO 15
